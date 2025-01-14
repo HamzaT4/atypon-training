@@ -19,6 +19,8 @@ public class GreetingController {
         // Add attributes to the model
         model.addAttribute("name", name);
         model.addAttribute("grade", randomGrade);
+        /// add functionality to the input element
+        /// edit after test
         return "greeting";
     }
 }
